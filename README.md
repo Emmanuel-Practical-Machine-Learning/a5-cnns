@@ -37,7 +37,7 @@ For example, trying removing one of the Conv, ReLU, Max pool triples and see how
 
 To gain some intuition about how convolutional neural networks work, visit the Web page at [http://scs.ryerson.ca/~aharley/vis/conv/flat.html](http://scs.ryerson.ca/~aharley/vis/conv/flat.html). It looks like this:
 
-![](harley-conv.jpg)
+![display of webpage](img/harley-conv.jpg)
 
 This is a visualization demo by Adam Harley, described in the paper "An Interactive Node-Link Visualization of Convolutional Neural Networks" (<http://www.cs.cmu.edu/~aharley/vis/harley_vis_isvc15.pdf>). It shows a network with two convolutional layers, two fully connected layers, and two max pool layers (called "downsampling" in the demo). Unlike Model Builder, the input layer is at the bottom and the output label layer at the top. The network was trained on MNIST; the labels are the digits 0 through 9.
 
@@ -61,7 +61,7 @@ Style transfer is the technique of re-creating one image in the style of another
 
 Here's an example–a photo of the MIT Dome, Picasso's painting *La Muse*, and the photo rendered in Picasso's style:
 
-![](https://lh4.googleusercontent.com/zLa0O1DLdQZn3mRQ724Gd0DQvHvZzqJgKVJSyrb2gzRmeAtVEpjUWHEMEjx6Ngv1Lx5rGE6SjSp0nsOXGR4cpruwerlch2gDOD1_vlB6HT3kE-9P6lhCW768lNKcgT0gDo7ebrvp)
+![display of transfer learning](img/im_1.png)
 
 Besides being fun to play with, style transfer is an instructive example of using CNN's. It illustrates some important ideas:
 
@@ -73,7 +73,7 @@ Besides being fun to play with, style transfer is an instructive example of usin
 
 The key idea behind style transfer is that we can think of an image as having two aspects: content and style. You can relate these to how images are processed by multilayer CNNs.
 
-Style transfer is the technique of recomposing one image in the style of another. Two inputs, a content image and a style image, are analyzed by a convolutional neural network which is then used to create an output image whose content mirrors the content image and whose style resembles that of the style image. Style transfer was first demonstrated in the paper "A neural algorithm of artistic style" by Gatys, Ecker and Bethge at the University of Tübingen in August 2015. It continues to be of great interest both to artists and scientists. You can find the paper at[ http://arxiv.org/abs/1508.06576](http://arxiv.org/abs/1508.06576)
+Style transfer is the technique of recomposing one image in the style of another. Two inputs, a content image and a style image, are analyzed by a convolutional neural network which is then used to create an output image whose content mirrors the content image and whose style resembles that of the style image. Style transfer was first demonstrated in the paper "A neural algorithm of artistic style" by Gatys, Ecker and Bethge at the University of Tübingen in August 2015. It continues to be of great interest both to artists and scientists. You can find the paper at[http://arxiv.org/abs/1508.06576](http://arxiv.org/abs/1508.06576)
 
 3.2: Computing image content
 ============================
