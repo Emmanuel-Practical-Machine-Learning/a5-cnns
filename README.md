@@ -35,7 +35,7 @@ For example, trying removing one of the Conv, ReLU, Max pool triples and see how
 1.4: Visualizing convolutional neural networks
 ==============================================
 
-To gain some intuition about how convolutional neural networks work, visit the Web page at [http://scs.ryerson.ca/~aharley/vis/conv/flat.html](http://scs.ryerson.ca/~aharley/vis/conv/flat.html). It looks like this:
+To gain some intuition about how convolutional neural networks work, visit the Web page at [http://scs.ryerson.ca/~aharley/vis/conv/flat.html](https://www.cs.cmu.edu/~aharley/vis/conv/flat.html). It looks like this:
 
 ![display of webpage](img/harley-conv.jpg)
 
